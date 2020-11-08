@@ -1,0 +1,73 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+h1{
+    font-family:'Playfair Display SC', serif;
+    color:white;
+    font-size:4em;
+}
+h3{
+    font-size:2em;
+    margin:0;
+    padding:none;
+  
+}
+h6{
+    font-family:'Raleway', sans-serif;
+    color:$pink;
+    font-size:4em;
+}
+
+$peach: rgba(255, 159, 107, 0.85);
+$brown: rgba(133, 89, 92, 0.9);
+
+
+
+//--------------------------------------------------//@at-root
+body{
+    margin:0;
+
+}
+.landing-page{
+    border:thin red solid;
+    height: 100vh;
+    background-color:$peach;
+    padding:1em 10em;
+
+
+.section1{
+
+    border:14px blue solid;
+    color:$brown;
+    display: flex;
+
+   
+
+    
+
+    .title{
+        display: block;
+     
+        border-right:4px $brown solid; 
+
+    }
+    .summary{
+        line-height: 1em;
+     
+    }
+    
+    
+
+}
+
+.section2{
+    border:thin purple solid;
+}
+
+.section3{
+    border:thin green solid;
+}
+}
+

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  color: white;
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0;
+  padding: none;
+}
+
+body {
+  margin: 0;
+}
+
+.landing-page {
+  border: thin red solid;
+  height: 100vh;
+  background-color: rgba(255, 159, 107, 0.85);
+  padding: 1em 10em;
+}
+
+.landing-page .section1 {
+  border: thin blue solid;
+  color: rgba(242, 16, 206, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0em 10em;
+}
+
+.landing-page .section1 .title {
+  display: block;
+  border: 4px rgba(242, 16, 206, 0.9) solid;
+}
+
+.landing-page .section1 .summary {
+  line-height: 1em;
+}
+
+.landing-page .section2 {
+  border: thin purple solid;
+}
+
+.landing-page .section3 {
+  border: thin green solid;
+}
+/*# sourceMappingURL=style.css.map */
