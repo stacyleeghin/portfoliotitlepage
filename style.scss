@@ -2,9 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-$peach: rgba(245, 106, 13, 0.651);
-// $primary: rgba(133, 89, 92, 0.9);
-$primary:rgba(255, 255, 255, 0.699);
+$peach: rgba(240, 145, 83, 0.651);
+$primary: rgba(133, 89, 92, 0.9);
+// $primary:rgba(255, 255, 255, 0.699);
 
 *{
     padding:none;
@@ -48,8 +48,9 @@ body{
     // border:thin red solid;
     height: 120vh;
     background-color:$peach;
-    padding:1em 10em;
+    padding:1em 15em;
     overflow: hidden;
+    z-index: -10;
 
 
 .section1{
@@ -134,7 +135,7 @@ body{
     }
 }
 .green img{
-    z-index: -1;
+    z-index: -5;
 
     position: absolute;
     animation-name: example;
@@ -150,15 +151,15 @@ body{
         90% {right:5em; top:0em;}
         100% {right:0em; top:0em;}
     }
-.yellow img{
-    z-index: -16;
+.lemon img{
+    z-index:-8;
 
     position: absolute;
-    animation-name: yellow;
-    animation-duration: 40s;
+    animation-name: lemon;
+    animation-duration: 50s;
     animation-iteration-count:infinite;
     }
-    @keyframes yellow {
+    @keyframes lemon {
         0%   { right:20em; top:10em;}
         12%  { right:50em; top:0em;}
         20%  { right:60em; top:40em;  transform: rotateX(70deg);}
@@ -168,7 +169,7 @@ body{
         100% {right:55em; top:60em;}
     }
 .orange img{
-    z-index: -6;
+    z-index: -7;
  
     position: absolute;
     animation-name:orange;
