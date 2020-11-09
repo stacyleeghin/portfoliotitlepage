@@ -1,14 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  padding: none;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 h1 {
   font-family: 'Playfair Display SC', serif;
-  color: white;
-  font-size: 4em;
+  color: rgba(133, 89, 92, 0.9);
+  font-size: 16em;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0;
-  padding: none;
+}
+
+h6 {
+  color: rgba(133, 89, 92, 0.9);
+  font-size: 2em;
 }
 
 body {
@@ -23,25 +36,61 @@ body {
 }
 
 .landing-page .section1 {
-  border: thin blue solid;
-  color: rgba(242, 16, 206, 0.9);
+  border: 1px blue solid;
+  color: rgba(133, 89, 92, 0.9);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0em 10em;
+  padding-left: 10em;
+  padding-top: 4em;
 }
 
 .landing-page .section1 .title {
   display: block;
-  border: 4px rgba(242, 16, 206, 0.9) solid;
+  text-transform: uppercase;
+  padding-right: 1em;
+  border-right: 8px rgba(133, 89, 92, 0.9) solid;
+}
+
+.landing-page .section1 .title h3 {
+  font-weight: 800 !important;
 }
 
 .landing-page .section1 .summary {
-  line-height: 1em;
+  padding-left: 1em;
+}
+
+.landing-page .section1 .summary h6 {
+  font-weight: 600 !important;
+  border: thin red solid;
 }
 
 .landing-page .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   border: thin purple solid;
+}
+
+.landing-page .section2 .stacy {
+  line-height: 16em;
+  padding: 10em 15em;
+}
+
+.landing-page .section2 .stacy h1 {
+  border: thin purple solid;
+  font-family: 'Playfair Display', serif !important;
+  font-style: italic;
+  text-align: right;
+}
+
+.landing-page .section2 .stacy span {
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Playfair Display SC', serif;
 }
 
 .landing-page .section3 {

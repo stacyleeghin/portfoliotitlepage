@@ -1,27 +1,38 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+$peach: rgba(255, 159, 107, 0.85);
+$primary: rgba(133, 89, 92, 0.9);
 
+*{
+    padding:none;
+    margin:0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
 h1{
     font-family:'Playfair Display SC', serif;
-    color:white;
-    font-size:4em;
+    color:$primary;
+    font-size:16em;
 }
 h3{
-    font-size:2em;
+    font-size:3em;
     margin:0;
-    padding:none;
+  
   
 }
 h6{
-    font-family:'Raleway', sans-serif;
-    color:$pink;
-    font-size:4em;
+
+    color:$primary;
+    font-size:2em;
+  
 }
 
-$peach: rgba(255, 159, 107, 0.85);
-$brown: rgba(133, 89, 92, 0.9);
+
+
 
 
 
@@ -39,23 +50,36 @@ body{
 
 .section1{
 
-    border:14px blue solid;
-    color:$brown;
+    border:1px blue solid;
+    color:$primary;
     display: flex;
+    padding-left: 10em;
+    padding-top:4em;
 
-   
 
     
 
     .title{
         display: block;
-     
-        border-right:4px $brown solid; 
+        text-transform: uppercase;
+        padding-right: 1em;
+        border-right:8px $primary solid; 
 
+        h3{
+         
+            font-weight: 800 !important;
+        }
     }
     .summary{
-        line-height: 1em;
-     
+        padding-left:1em;
+
+       h6{
+      
+        font-weight: 600 !important;
+        border:thin red solid;
+
+       }
+   
     }
     
     
@@ -63,7 +87,29 @@ body{
 }
 
 .section2{
+    display: flex;
+    justify-content: flex-end;
     border:thin purple solid;
+
+
+    .stacy {
+        line-height: 16em;
+        padding: 10em 15em;
+
+        h1 {
+            border:thin purple solid;
+            font-family: 'Playfair Display', serif !important;
+            font-style: italic;
+            text-align: right;
+            
+        }
+
+        span {
+            display: block;
+            text-transform: uppercase;
+            font-family:'Playfair Display SC', serif;
+        }
+    }
 }
 
 .section3{
