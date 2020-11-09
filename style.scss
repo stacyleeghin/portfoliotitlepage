@@ -2,8 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-$peach: rgba(208, 114, 47, 0.564);
-$primary: rgba(133, 89, 92, 0.9);
+$peach: rgba(245, 106, 13, 0.651);
+// $primary: rgba(133, 89, 92, 0.9);
+$primary:rgba(255, 255, 255, 0.699);
 
 *{
     padding:none;
@@ -16,7 +17,8 @@ body{
 h1{
     font-family:'Playfair Display SC', serif;
     color:$primary;
-    font-size:26em;
+    font-size:23em;
+    font-weight: 900;
 }
 h3{
     font-size:3em;
@@ -55,7 +57,7 @@ body{
 
     color:$primary;
     display: flex;
-    padding-left: 10em;
+    // padding-left: 10em;
     padding-top:4em;
 
 
@@ -95,8 +97,8 @@ body{
 
 
     .stacy {
-        line-height: 26em;
-        padding: 8em 15em;
+        line-height: 20em;
+        padding: 4em 0em;
 
         h1 {
             // border:thin purple solid;
